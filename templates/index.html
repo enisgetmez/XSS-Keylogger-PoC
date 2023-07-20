@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSS Keylogger For PoC</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Socket.IO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="container mx-auto py-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4">XSS Keylogger For PoC</h1>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="col-span-2">
+                <div id="richtext" class="border border-gray-600 p-2 h-48 overflow-y-auto"></div>
+            </div>
+            <div class="col-span-2">
+                <div class="flex">
+                    <input type="text" id="serverUrl" class="flex-1 p-2 border text-black border-gray-600" placeholder="Enter server URL">
+                    <button id="getPayload" class="ml-2 p-2 bg-blue-500 text-white">Get Payload</button>
+                    <input type="text" id="Payload" class="flex-1 p-2 border text-black border-gray-600" placeholder="Generated Payload" disabled>
+                </div>
+                <div id="payload" class="mt-4 p-2 border border-gray-600 hidden"></div>
+            </div>
+            <script src="/static/main.js"></script>
+        </div>
+    </div>
+</body>
+</html>
