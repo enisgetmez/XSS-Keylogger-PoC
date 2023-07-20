@@ -15,6 +15,7 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 **Usage**
+
 1. Generate a public URL for the server using Ngrok:
 ```bash
 ngrok http 5000
