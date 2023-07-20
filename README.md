@@ -39,7 +39,10 @@ python server.py
 3. Open http://localhost:5000 in your browser to view the interface.
 4. Enter the public URL obtained from Ngrok into the "Enter Server URL" box and click the "Get Payload" button.
 5. The generated XSS payload will appear in the "Generated Payload" box. You can use this payload to perform an XSS attack on the target site.
-6. 
+
 **Contribution**
 
 Contributions to enhance the tool or report issues are welcomed. Please feel free to submit pull requests or create issues.
+
+
+![Screenshot](https://i.imgur.com/FVFmybm.png)
