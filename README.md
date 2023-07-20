@@ -9,7 +9,9 @@ This project aims to demonstrate a Proof of Concept (PoC) application for Cross-
 **Requirements**
 
 Flask
+
 Flask-SocketIO
+
 Ngrok: To expose the local server to the internet, you need Ngrok. Download and install Ngrok from the official website: https://ngrok.com/download
 
 **Installation**
