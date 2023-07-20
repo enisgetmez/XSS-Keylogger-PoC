@@ -15,10 +15,18 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 **Usage**
-1. Open [http://localhost:5000](http://localhost:5000) in your browser to view the interface.
-2. Enter the ngrok address (or any other URL) of the site you want to target for the XSS attack in the "Enter Server URL" box and click the "Get Payload" button.
-3. The generated XSS payload will appear in the "Generated Payload" box. You can use this payload to perform an XSS attack on the target site.
-
+1. Generate a public URL for the server using Ngrok:
+```bash
+ngrok http 5000
+```
+After running Ngrok, obtain the public URL (e.g., https://xxxxx.ngrok.io).
+2. Start the XSS Keylogger server:
+```bash
+python server.py
+```
+3. Open http://localhost:5000 in your browser to view the interface.
+4. Enter the public URL obtained from Ngrok into the "Enter Server URL" box and click the "Get Payload" button.
+5. The generated XSS payload will appear in the "Generated Payload" box. You can use this payload to perform an XSS attack on the target site.
 **Contribution**
 
 Contributions to enhance the tool or report issues are welcomed. Please feel free to submit pull requests or create issues.
