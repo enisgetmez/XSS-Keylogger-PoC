@@ -1,10 +1,19 @@
 # XSS-Keylogger-PoC
+
 This repository contains a Proof of Concept (PoC) application for Cross-Site Scripting (XSS) vulnerability, demonstrating a simple XSS Keylogger server built with Flask and Socket.IO. 
 
 **Description**
+
 This project aims to demonstrate a Proof of Concept (PoC) application for Cross-Site Scripting (XSS) vulnerability by creating a simple XSS Keylogger server using Flask and Socket.IO. Please use this project responsibly and only for ethical hacking testing or educational purposes.
 
+**Requirements**
+
+Flask
+Flask-SocketIO
+Ngrok: To expose the local server to the internet, you need Ngrok. Download and install Ngrok from the official website: https://ngrok.com/download
+
 **Installation**
+
 Clone the repository to a local folder:
 ```bash
 git clone https://github.com/enisgetmez/XSS-Keylogger-PoC.git
