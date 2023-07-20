@@ -32,6 +32,7 @@ pip install -r requirements.txt
 ngrok http 5000
 ```
 After running Ngrok, obtain the public URL (e.g., https://xxxxx.ngrok.io).
+
 2. Start the XSS Keylogger server:
 ```bash
 python server.py
